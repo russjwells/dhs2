@@ -39,28 +39,28 @@ class HomeIndex extends React.Component {
                         <article style={{backgroundImage: `url(${pic02})`}}>
                             <header className="major">
                                 <h3>Brand Identity</h3>
-                                <p>Make your offering shine!</p>
+                                <p>Let's Make your offering shine!</p>
                             </header>
                             <Link to="/landing" className="link primary"></Link>
                         </article>
                         <article style={{backgroundImage: `url(${pic03})`}}>
                             <header className="major">
                                 <h3>Motion Graphics, Video, and Film</h3>
-                                <p>Stand out with our stellar Media production suite!</p>
+                                <p>Stand out with our stellar Media production Team!</p>
                             </header>
                             <Link to="/landing" className="link primary"></Link>
                         </article>
                         <article style={{backgroundImage: `url(${pic04})`}}>
                             <header className="major">
                                 <h3>Web Applications</h3>
-                                <p>custom boutique web applications!</p>
+                                <p>custom boutique web solutions.</p>
                             </header>
                             <Link to="/landing" className="link primary"></Link>
                         </article>
                         <article style={{backgroundImage: `url(${pic05})`}}>
                             <header className="major">
                                 <h3>Websites</h3>
-                                <p>Personal, ecommerce & more!</p>
+                                <p>Personal, Services, Brands, ecommerce.</p>
                             </header>
                             <Link to="/landing" className="link primary"></Link>
                         </article>
@@ -77,7 +77,7 @@ class HomeIndex extends React.Component {
                             <header className="major">
                                 <h2>Full Service Independent Digital Agency</h2>
                             </header>
-                            <p>Digital Hyperspace is a design, media, and technology company that exists to facilitate the expansion of consciousness on Earth. We create experiences that uplift, inspire, and evolve your life.</p>
+                            <p>Digital Hyperspace is a design, media, and technology company that exists to facilitate the expansion of consciousness on Earth. We create experiences that uplift, inspire, and evolve life.</p>
                             <ul className="actions">
                                 <li><Link to="/landing" className="button next">Get Started</Link></li>
                             </ul>
