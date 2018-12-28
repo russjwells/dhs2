@@ -4,12 +4,12 @@ import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 import Banner from '../components/Banner'
 
-import pic01 from '../assets/images/pic01.jpg'
-import pic02 from '../assets/images/pic02.jpg'
-import pic03 from '../assets/images/pic03.jpg'
-import pic04 from '../assets/images/pic04.jpg'
-import pic05 from '../assets/images/pic05.jpg'
-import pic06 from '../assets/images/pic06.jpg'
+import pic01 from '../assets/images/space01.jpg'
+import pic02 from '../assets/images/space02.jpg'
+import pic03 from '../assets/images/space03.jpg'
+import pic04 from '../assets/images/space04.jpg'
+import pic05 from '../assets/images/space05.jpg'
+import pic06 from '../assets/images/space06.jpg'
 
 class HomeIndex extends React.Component {
     render() {
@@ -17,10 +17,10 @@ class HomeIndex extends React.Component {
         return (
             <Layout>
                 <Helmet
-                    title="Gatsby Starter - Forty"
+                    title="Digital Hyperspace"
                     meta={[
-                        { name: 'description', content: 'Sample' },
-                        { name: 'keywords', content: 'sample, something' },
+                        { name: 'description', content: 'Design Media Technology' },
+                        { name: 'keywords', content: 'software, design' },
                     ]}
                 >
                 </Helmet>
@@ -32,54 +32,54 @@ class HomeIndex extends React.Component {
                         <article style={{backgroundImage: `url(${pic01})`}}>
                             <header className="major">
                                 <h3>Mobile Apps</h3>
-                                <p>native applications for iOS and Android.</p>
+                                <p>native applications for iOS & Android</p>
                             </header>
-                            <Link to="/landing" className="link primary"></Link>
+                            <Link to="#two" className="link primary"></Link>
                         </article>
                         <article style={{backgroundImage: `url(${pic02})`}}>
                             <header className="major">
                                 <h3>Brand Identity</h3>
-                                <p>Let's Make your offering shine!</p>
+                                <p>Let's Make your offering shine</p>
                             </header>
-                            <Link to="/landing" className="link primary"></Link>
+                            <Link to="#two" className="link primary"></Link>
                         </article>
                         <article style={{backgroundImage: `url(${pic03})`}}>
                             <header className="major">
-                                <h3>Motion Graphics, Video, and Film</h3>
-                                <p>Stand out with our stellar Media production Team!</p>
+                                <h3>Motion Graphics, Video & Film</h3>
+                                <p>Stand out with our stellar Media production Team</p>
                             </header>
-                            <Link to="/landing" className="link primary"></Link>
-                        </article>
-                        <article style={{backgroundImage: `url(${pic04})`}}>
-                            <header className="major">
-                                <h3>Web Applications</h3>
-                                <p>custom boutique web solutions.</p>
-                            </header>
-                            <Link to="/landing" className="link primary"></Link>
+                            <Link to="#two" className="link primary"></Link>
                         </article>
                         <article style={{backgroundImage: `url(${pic05})`}}>
                             <header className="major">
-                                <h3>Websites</h3>
-                                <p>Personal, Services, Brands, ecommerce.</p>
+                                <h3>Web Applications</h3>
+                                <p>custom boutique web solutions</p>
                             </header>
-                            <Link to="/landing" className="link primary"></Link>
+                            <Link to="#two" className="link primary"></Link>
+                        </article>
+                        <article style={{backgroundImage: `url(${pic04})`}}>
+                            <header className="major">
+                                <h3>Websites</h3>
+                                <p>Personal, Services, Brands, ecommerce</p>
+                            </header>
+                            <Link to="#two" className="link primary"></Link>
                         </article>
                         <article style={{backgroundImage: `url(${pic06})`}}>
                             <header className="major">
-                                <h3>Virtual Reality, Augmented Reality, and Games</h3>
-                                <p>There's a new world coming!</p>
+                                <h3>Virtual Reality, Augmented Reality & Games</h3>
+                                <p>Another world is on its way</p>
                             </header>
-                            <Link to="/landing" className="link primary"></Link>
+                            <Link to="#two" className="link primary"></Link>
                         </article>
                     </section>
                     <section id="two">
                         <div className="inner">
                             <header className="major">
-                                <h2>Full Service Independent Digital Agency</h2>
+                                <h2>A Full Service Digital Agency</h2>
                             </header>
-                            <p>Digital Hyperspace is a design, media, and technology company that exists to facilitate the expansion of consciousness on Earth. We create experiences that uplift, inspire, and evolve life.</p>
+                            <p>Digital Hyperspace is a design, media, and technology company that exists to facilitate the expansion of consciousness on Earth. <br />We create experiences that uplift, inspire, and evolve life.</p>
                             <ul className="actions">
-                                <li><Link to="/landing" className="button next">Get Started</Link></li>
+                                <li><a href="#contact" className="button next scrolly">Get Started</a></li>
                             </ul>
                         </div>
                     </section>

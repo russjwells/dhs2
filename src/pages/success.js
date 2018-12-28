@@ -7,7 +7,7 @@ import pic11 from '../assets/images/pic11.jpg'
 const Success = (props) => (
     <Layout>
         <Helmet>
-            <title>Success Page</title>
+            <title>Message Sent!</title>
             <meta name="description" content="Success Page" />
         </Helmet>
 
@@ -15,7 +15,7 @@ const Success = (props) => (
             <section id="one">
                 <div className="inner">
                     <header className="major">
-                        <h1>Success</h1>
+                        <h1>Message Sent!</h1>
                     </header>
                     <span className="image main"><img src={pic11} alt="" /></span>
                     <p>Thank you for contacting us!</p>
