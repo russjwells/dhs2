@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: "Digital Hyperspace – Design, Media & Technology",
     author: "Russell Wells",
-    description: "Gatsby version of the Digital Hyperspace website"
+    description: "Digital Hyperspace website"
   },
   plugins: [
     'gatsby-plugin-react-helmet',
@@ -19,6 +19,14 @@ module.exports = {
       },
     },
     'gatsby-plugin-sass',
-    'gatsby-plugin-offline'
+    'gatsby-plugin-offline',
+    'gatsby-plugin-google-analytics',
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+      // replace "UA-XXXXXXXXX-X" with your own Tracking ID
+        trackingId: "UA-131525485-1",
+      },
+    },
   ],
 }
