@@ -14,12 +14,20 @@ const Contact = (props) => (
                         <label htmlFor="email">Email</label>
                         <input type="text" name="email" id="email" />
                     </div>
+                    <div className="field half first">
+                        <label htmlFor="budget">Budget</label>
+                        <input type="text" name="budget" id="budget" />
+                    </div>
+                    <div className="field half">
+                        <label htmlFor="phone">Phone</label>
+                        <input type="text" name="phone" id="phone" />
+                    </div>
                     <div className="field">
-                        <label htmlFor="message">Message</label>
-                        <textarea name="message" id="message" rows="6"></textarea>
+                        <label htmlFor="description">Description</label>
+                        <textarea name="description" id="description" rows="6"></textarea>
                     </div>
                     <ul className="actions">
-                        <li><input type="submit" value="Send Message" className="special" /></li>
+                        <li><input type="submit" value="Apply" className="special" /></li>
                         <li><input type="reset" value="Clear" /></li>
                     </ul>
                 </form>
