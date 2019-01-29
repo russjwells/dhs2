@@ -77,7 +77,8 @@ class HomeIndex extends React.Component {
                             <header className="major">
                                 <h2>A Full Service Digital Agency</h2>
                             </header>
-                            <p>Digital Hyperspace is a design, media, and technology company that exists to facilitate the expansion of consciousness on Earth. <br />We create experiences that uplift, inspire, and evolve life.</p>
+                            <p>Digital Hyperspace is a design, media, and technology company that exists to facilitate the expansion of consciousness on Earth. <br />We create experiences that uplift, inspire, and evolve life. </p>
+                            <p><a href="http://eepurl.com/gfEpQ1">Subscribe to our email list</a> for news and updates on our conscious design, media, and technology productions.</p>
                             <ul className="actions">
                                 <li><a href="#contact" className="button next scrolly">Get Started</a></li>
                             </ul>
