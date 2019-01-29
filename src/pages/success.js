@@ -18,7 +18,7 @@ const Success = (props) => (
                         <h1>Message Sent!</h1>
                     </header>
                     <span className="image main"><img src={pic11} alt="" /></span>
-                    <p>Thank you for contacting us!</p>
+                    <p>Thank you for contacting us! We do our best to respond to applications in two business days or sooner.</p>
                 </div>
             </section>
         </div>

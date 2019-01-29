@@ -38,7 +38,7 @@ class HomeIndex extends React.Component {
                         </article>
                         <article style={{backgroundImage: `url(${pic02})`}}>
                             <header className="major">
-                                <h3>Brand Identity</h3>
+                                <h3>Brand Identity & Marketing</h3>
                                 <p>Let's Make your offering shine</p>
                             </header>
                             <Link to="#two" className="link primary"></Link>
