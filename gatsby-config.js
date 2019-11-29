@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: "Digital Hyperspace – Design, Media & Technology",
+    title: "HŸPERSPÄÇÊ – Conscious Design, Media & Technology | hyperspace.im",
     author: "Russell Wells",
-    description: "Digital Hyperspace website"
+    description: "Hyperspace website"
   },
   plugins: [
     'gatsby-plugin-react-helmet',

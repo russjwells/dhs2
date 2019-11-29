@@ -4,12 +4,12 @@ const Banner = (props) => (
     <section id="banner" className="major">
         <div className="inner">
             <header className="major">
-                <h1>Welcome to Digital Hyperspace</h1>
+                <h1>We're plotting to raise the vibrations.</h1>
             </header>
             <div className="content">
-                <p>Design, Media & Technology <br />for an Evolving World</p>
+                <p>Design Media & Technology for a new Earth.</p>
                 <ul className="actions">
-                    <li><a href="#one" className="button next scrolly">Check out our Services</a></li>
+                    <li><a href="#one" className="button next scrolly">Browse our Services</a></li>
                 </ul>
             </div>
         </div>
