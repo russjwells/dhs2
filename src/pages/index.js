@@ -79,7 +79,7 @@ class HomeIndex extends React.Component {
                             </header>
                             <p>Hÿperspäçê is a design, media, and technology company that facilitates the expansion of consciousness on Earth. <br />We create experiences that uplift, inspire, and evolve life's expression.</p>
                             
-                            <p>Contact us to get started. Months begin at $6,000.</p>
+                            <p>Contact us to get started.</p>
                             
                             <p><a href="http://eepurl.com/gfEpQ1">Subscribe to our email list</a> for news and updates on our conscious design, media, and technology productions.</p>
                             
