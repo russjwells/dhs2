@@ -9,7 +9,7 @@ const Footer = (props) => (
                 <li><a href="https://www.instagram.com/hyperspace.im" className="icon alt fa-instagram"><span className="label">Instagram</span></a></li>
             </ul>
             <ul className="copyright">
-                <li>&copy; Hyperspace 2019</li>
+                <li>&copy; Hyperspace 2020</li>
             </ul>
         </div>
     </footer>
