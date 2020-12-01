@@ -51,8 +51,8 @@ const Contact = (props) => (
                     <div className="contact-method">
                         <span className="icon alt fa-home"></span>
                         <h3>Location</h3>
-                        <span>4930 Santa Monica Ave. #7<br />
-                        San Diego, CA 92107<br />
+                        <span>
+                        Portland, Oregon<br />
                         United States of America</span>
                     </div>
                 </section>
