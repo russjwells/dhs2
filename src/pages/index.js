@@ -77,11 +77,11 @@ class HomeIndex extends React.Component {
                             <header className="major">
                                 <h2>A Digital Agency for the New Earth</h2>
                             </header>
-                            <p>Hÿperspäçê is a design, media, and technology company that facilitates the expansion of consciousness on Earth. <br />We create experiences that uplift, inspire, and evolve life's expression.</p>
+                            <p>Hÿperspäçê is a design, media, and technology company that facilitates the expansion of consciousness on Earth.</p>
                             
                             <p>Contact us to get started.</p>
                             
-                            <p><a href="http://eepurl.com/gfEpQ1">Subscribe to our email list</a> for news and updates on our conscious design, media, and technology productions.</p>
+                            <p><a href="http://eepurl.com/gfEpQ1">Subscribe to our email list</a> for news and updates on our work.</p>
                             
                             <ul className="actions">
                                 <li><a href="#contact" className="button next scrolly">Get Started</a></li>
