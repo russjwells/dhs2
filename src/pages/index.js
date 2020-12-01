@@ -32,7 +32,7 @@ class HomeIndex extends React.Component {
                         <article style={{backgroundImage: `url(${pic01})`}}>
                             <header className="major">
                                 <h3>Mobile Apps</h3>
-                                <p>native applications for iOS & Android</p>
+                                <p>native apps for iOS Android & More</p>
                             </header>
                             <Link to="#two" className="link primary"></Link>
                         </article>
@@ -52,14 +52,14 @@ class HomeIndex extends React.Component {
                         </article>
                         <article style={{backgroundImage: `url(${pic05})`}}>
                             <header className="major">
-                                <h3>Web Applications</h3>
-                                <p>custom boutique web solutions</p>
+                                <h3>Web Apps</h3>
+                                <p>boutique web solutions</p>
                             </header>
                             <Link to="#two" className="link primary"></Link>
                         </article>
                         <article style={{backgroundImage: `url(${pic04})`}}>
                             <header className="major">
-                                <h3>Websites</h3>
+                                <h3>Custom UX</h3>
                                 <p>Personal, Services, Brands, ecommerce</p>
                             </header>
                             <Link to="#two" className="link primary"></Link>
